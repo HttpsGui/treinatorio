@@ -23,7 +23,13 @@
     <address>RUA RITAPOLIS 87, 03268-090</address>
     <p>o importante da semantica do htlm fica evidente na linha de cima, entendemos que podemos colocar um endereço num paragrafo qualquer.<br>porem colocar semanticamente ajuda a deixar o codigo mais claro</p>
     <h2>TREINO DE IMPORTAÇÃO DE IMAGEM/GIF</h2>
-    <img src="IMG/220504135611-desktop-thedancingbaby.gif" alt="gif do bebe dançandao">
+    
+    <picture>
+        <source media="(max-width:750px )" srcset="gifp">
+        <source media="(max-width:1000px )" srcset="gifm">
+        <img src="IMG/220504135611-desktop-thedancingbaby.gif" alt="gif do bebe dançandao">
+    </picture>
+
     <h2>TREINOS COM HYPERLINKS</h2>
     <h3>Treino para next page</h3>
     <p>Para ir para uma pagina posterior <a href="page002.html" target="_self" rel = "next">clique aqui</a></p>
@@ -36,7 +42,7 @@
     <h2>REPOSITORIO PARA EMOJIS</h2>
     <p>
       adicionando emoji: <br>
-        para acessar a lista de emoji <a href="https://emojipedia.org/" target="_blank">https://emojipedia.org/</a>  <br>
+        para acessar a lista de emoji <a href="https://emojipedia.org/" target="_blank">https://emojipedia.org/</a><br>
         &#x1F90F; <br>
         &#x1F364;
     </p>
